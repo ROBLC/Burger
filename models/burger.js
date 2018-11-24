@@ -6,13 +6,14 @@ var burger = {
             callBack(res);
         });
     },
-    create: function (name, callBack) {
-        orm.insertOne("burgers", "burger_name", name, function (res) {
+    create: function (cols, vals, callBack) {
+        orm.insertOne("burgers", cols, vals, function (res) {
             callBack(res);
         });
     },
-    update: function (state, callBack) {
-        orm.updateOne("burgers", "devoured", state, function (res) {
+    update: function (state, condition, callBack) {
+        console.log("state in models" + state);
+        orm.updateOne("burgers", state, condition, function (res) {
             callBack(res);
         });
     }

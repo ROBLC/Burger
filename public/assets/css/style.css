@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://ih1.redbubble.net/image.447495062.4371/flat,800x800,075,t.jpg);
+}
+.toEat {
+    background-color: #ffcc00;
+}
+.eaten {
+    background-color:  #cc0000;
+}
+i {
+    margin: 5px;
+}
+.add-btn {
+    background-color: #ffcc00;
+}
+.eat-btn {
+    background-color:  #cc0000;
+}
