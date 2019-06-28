@@ -1,4 +1,4 @@
-# Burger
+# Burger App
 
 Web app that allows you to add a burger and then eat it! Data is being retrieved and saved to a database.
 
